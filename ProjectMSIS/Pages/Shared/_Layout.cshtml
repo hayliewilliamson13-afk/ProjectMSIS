@@ -10,24 +10,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">ProjectMSIS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <nav class="navbar navbar-dark bg-danger px-4 py-3">
+            <span class="navbar-brand fw-bold fs-4 text-uppercase">Costco Wholesale</span>
+            <span class="badge bg-light text-danger fw-semibold">Coming Soon</span>
         </nav>
     </header>
     <div class="container">
@@ -36,9 +21,12 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - ProjectMSIS - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    <footer class="bg-danger text-center py-3">
+        <p class="text-white small mb-1 opacity-75">&copy; @DateTime.Now.Year Costco Wholesale Corporation. All rights reserved.</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="#" class="text-white small text-decoration-none opacity-75">Privacy Policy</a>
+            <a href="#" class="text-white small text-decoration-none opacity-75">Terms of Use</a>
+            <a href="#" class="text-white small text-decoration-none opacity-75">Contact Us</a>
         </div>
     </footer>
 
